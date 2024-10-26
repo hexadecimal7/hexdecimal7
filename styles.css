@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2f2;
+    color: #800101;
+}
+
+/* Header styling */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+/* Two-column layout */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Left and right columns */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: start; /* Aligns the container to the start */
+}
+
+/* Left section styling */
+.left-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    margin-left: 0; /* Ensures it aligns to the very left */
+}
+
+.left-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.left-section p, .left-section ul {
+    margin-bottom: 10px;
+}
+
+.left-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.left-section ul li {
+    margin-bottom: 5px;
+}
+
+/* Right section styling */
+.right-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+}
+
+.right-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.right-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.right-section .work-experience {
+    margin-bottom: 20px;
+}
+
+.right-section .work-experience h3 span {
+    font-size: 0.9em;
+    color: #910c0c;
+}
+
+.right-section ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9084a7;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.info h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1.2em;
+}
+
+.contact p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+    color:red;
+
+}
+
+#projects-link{
+    color:red;
+}
+#projects-link:hover{
+    color: orange;
+}
+#projects-link:active{
+    color:blue;
+}
+#projects-link:visited{
+    color:black;
+}
+
