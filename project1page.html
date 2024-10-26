@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System - Project1Page</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/project.css">
+
+
+</head>
+<body id="body">
+    <header>
+        <h1>Employee Management System</h1>
+        <p>This project provides an Employee Management System with a graphical interface developed in Java and JavaFX.</p>
+    </header>
+
+    <section>
+        <h2>Project Overview</h2>
+        <p>This system manages employee records, offering functionalities to add, update, remove, and display information.
+         It uses a linked list structure for managing employee data and ensures that records are efficiently accessible and modifiable
+         through a GUI interface.</p>
+    </section>
+
+    <section>
+        <h2>Core Components</h2>
+        
+        <h3>1. Node.java</h3>
+        <p>Defines the <code>Node</code> class to represent an employee. Each node stores data attributes such as <code>id</code>, <code>name</code>, <code>address</code>, <code>salary</code>, <code>phone</code>, and <code>work hours</code>, along with a link to the next node.</p>
+
+        <h3>2. LinkedList.java</h3>
+        <p>Implements a singly linked list with methods for:</p>
+        <ul>
+            <li><strong>Add</strong>: Insert an employee record at the front of the list.</li>
+            <li><strong>Show</strong>: Display employee information by ID.</li>
+            <li><strong>Update</strong>: Adjust employee salary based on their work hours.</li>
+            <li><strong>Remove</strong>: Delete an employee record by ID.</li>
+        </ul>
+
+        <h3>3. HelloController.java</h3>
+        <p>Acts as the controller to connect the GUI with the linked list functionalities. It handles user actions such as:</p>
+        <ul>
+            <li><strong>Add Employee</strong>: Adds a new employee based on user input.</li>
+            <li><strong>Update Salary</strong>: Updates an employee's salary if the work hours meet specified requirements.</li>
+            <li><strong>Remove Employee</strong>: Removes an employee by their ID.</li>
+            <li><strong>Show Employee</strong>: Displays details of a selected employee.</li>
+        </ul>
+
+        <h3>4. hello-view.fxml</h3>
+        <p>This file structures the graphical user interface layout using JavaFX. It provides input fields, buttons, and tabs for different functionalities (e.g., Add, Update, Show).</p>
+
+        <h3>5. HelloApplication.java</h3>
+        <p>The main application file that launches the JavaFX application and sets up the primary window with a specified title and dimensions.</p>
+    </section>
+
+    <section>
+        <h2>Features</h2>
+        <ul>
+            <li>User-friendly GUI developed with JavaFX.</li>
+            <li>Efficient linked list structure to manage employee data.</li>
+            <li>Validation of inputs for error handling and data integrity.</li>
+            <li>Easy-to-navigate tabs for adding, updating, removing, and displaying employee details.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How It Works</h2>
+        <p>Upon launching the application, users can interact with the system through a series of tabs, each serving a specific function (e.g., adding a record, updating salary, etc.). The linked list data structure ensures that each employee’s record is uniquely stored and accessible by ID, and the system provides appropriate messages and alerts to guide the user.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Employee Management System Project</p>
+    </footer>
+</body>
+</html>
